@@ -1,11 +1,23 @@
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=League+Spartan:wght@400;700&family=Noto+Sans+JP:wght@400;500&display=swap');
 
+
+@font-face {
+    font-family: 'theheartregular';
+    src: url('font/THEheart/theheart-webfont.woff2') format('woff2'),
+         url('font/THEheart/theheart-webfont.woff') format('woff');
+	 url('font/THEheart/theheart.ttf') format('ttf')
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 /* 
 for self
 font-family: 'Fredoka One', cursive;
 font-family: 'League Spartan', sans-serif;
 font-family: 'Noto Sans JP', sans-serif; 
+font-family: 'theheartregular', cursive;
 *\
 
 p {
