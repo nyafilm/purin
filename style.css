@@ -21,6 +21,11 @@ font-family: 'theheartregular', cursive;
 *\
 
 p {
-  font-family: League Spartan, sans-serif;
+	font-family: League Spartan, sans-serif;
+}
+
+wip { 
+	font-family: 'Fredoka One', cursive;
+	text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000, 0 0;
 }
 </style>
