@@ -1,14 +1,3 @@
-
-@font-face {
-    font-family: 'theheartregular';
-    src: url('font/THEheart/theheart-webfont.woff2') format('woff2'),
-         url('font/THEheart/theheart-webfont.woff') format('woff');
-	 url('font/THEheart/theheart.ttf') format('ttf')
-    font-weight: normal;
-    font-style: normal;
-}
-
-
 #wip {
  text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000, 0 0;
  font-family: 'Fredoka One', 'Comic Sans';
@@ -20,5 +9,16 @@
 body {
 font-family: 'League Spartan', sans-serif;
 text-align: center;
+}
+
+
+
+@font-face {
+    font-family: 'theheartregular';
+    src: url('font/THEheart/theheart-webfont.woff2') format('woff2'),
+         url('font/THEheart/theheart-webfont.woff') format('woff');
+	 url('font/THEheart/theheart.ttf') format('ttf')
+    font-weight: normal;
+    font-style: normal;
 }
 
