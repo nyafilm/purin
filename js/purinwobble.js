@@ -10,9 +10,9 @@ var alink=""; // page to link text to (set to ="" for no link)
 * DON'T EDIT BELOW THIS BOX *
 ****************************/
 var wobtxt, wobble, wobcnt=0;
-window.onload=function() { if (document.getElementById) {
+window.onload=function() { if (document.getElementsByClassName) {
   var i, wobli;
-  wobble=document.getElementsByClassName("purin");
+  wobble=document.getElementsByClassName("wobble");
   wobtxt=wobble.firstChild.nodeValue;
   while (wobble.childNodes.length) wobble.removeChild(wobble.childNodes[0]);
   for (i=0; i<wobtxt.length; i++) {
