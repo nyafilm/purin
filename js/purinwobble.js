@@ -1,4 +1,4 @@
-<script type="text/javascript">
+
 // <![CDATA[
 var speed=350; // speed of wobbling, lower is faster
 var height=1; // height of wobbling in pixels
@@ -33,4 +33,4 @@ function wobbler() {
   wobcnt++;
 }
 // ]]>
-</script>
+
