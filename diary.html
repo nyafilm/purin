@@ -1,0 +1,66 @@
+
+<head>
+<link rel="stylesheet" type="text/css" href="style.css">
+	
+<script type="text/javascript">
+// <![CDATA[
+var speed=290; // speed of wobbling, lower is faster
+var height=1; // height of wobbling in pixels
+var alink="http://www.mf2fm.com/rv"; // page to link text to (set to ="" for no link)
+
+/****************************
+*    Wobbly Text Effect     *
+*(c) 2003-6 mf2fm web-design*
+*  http://www.mf2fm.com/rv  *
+* DON'T EDIT BELOW THIS BOX *
+****************************/
+var wobtxt, wobble, wobcnt=0;
+window.onload=function() { if (document.getElementById) {
+  var i, wobli;
+  wobble=document.getElementById("diary");
+  wobtxt=wobble.firstChild.nodeValue;
+  while (wobble.childNodes.length) wobble.removeChild(wobble.childNodes[0]);
+  for (i=0; i<wobtxt.length; i++) {
+    wobli=document.createElement("span");
+    wobli.setAttribute("id", "wobb"+i);
+    wobli.style.position="relative";
+    wobli.appendChild(document.createTextNode(wobtxt.charAt(i)));
+    if (alink) {
+      wobli.style.cursor="pointer";
+      wobli.onclick=function() { top.location.href=alink; }
+    }
+    wobble.appendChild(wobli);
+  }
+  setInterval("wobbler()", speed);
+}}
+
+function wobbler() {
+  for (var i=0; i<wobtxt.length; i++) document.getElementById("wobb"+i).style.top=Math.round(height*Math.sin(i+wobcnt))+"px"
+  wobcnt++;
+}
+// ]]>
+</script>
+	
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=League+Spartan:wght@400;700&display=swap" rel="stylesheet">
+
+ <meta charset="UTF-8"> <title> purin0 (´,,•ω•,,)♡ </title>
+	  <link rel="shortcut icon" type="image/gif" href="img/favicon.gif"/>
+	
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	
+	
+</head>
+
+<body>
+  
+ <p id="purin"> internet diary </p>
+  <p style="text-align:center;"> trigger warning, a very indulgent online diary </p>
+  <br>
+  
+  <div style="text-align:center;display:block;margin-left:auto;margin-right:auto;" class="entry"> <b> 3.16.22 </b> today wasnt as good as id hope itd be. for me, breaks for school always end up in turmoil. i cut myself a little too deep, got too knife happy. im really disappointed in myself, but i dont really have much to do about it other than just rest and try not to do it again. 4 days until school resumes, and i can distract myself again. </div>
+  
+  
+  
