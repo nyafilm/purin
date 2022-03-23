@@ -31,6 +31,31 @@ font-family: 'League Spartan', sans-serif;
 text-align: center;
 }
 
+.link {
+position: relative;
+transition: clip-path 275ms ease;
+}
+.link:hover span::before, .link:focus span::before {
+clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+}
+.link span {
+position: relative;
+display: inline-block;
+}
+.link span::before {
+position: absolute;
+content: attr(data-content);
+text-decoration: underline;
+clip-path: polygon(0 0, 0 0, 0% 100%, 0 100%);
+transition: clip-path 275ms ease;
+}
+span.dashed::before {
+text-decoration-style: dashed;
+}
+span.wavy::before {
+text-decoration-style: wavy;
+}
+
 
 
 @font-face {
