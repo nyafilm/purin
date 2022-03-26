@@ -39,6 +39,14 @@ font-family: 'League Spartan', sans-serif;
 text-align: center;
 }
 
+a {
+	color:#786055;
+}
+
+a:hover {
+	color:#917f77
+}
+
 .link {
 position: relative;
 transition: clip-path 275ms ease;
