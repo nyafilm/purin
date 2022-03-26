@@ -6,6 +6,14 @@
  text-align: center;
  }
 
+.purin {
+ text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000, 0 0;
+ font-family: 'Fredoka One', 'Comic Sans';
+ color: #fff;
+ font-size:200%;
+ text-align: center;
+ }
+
 .bordertext {
 border-width:7px;
 border-style:solid;
