@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
 
 :root {
     /* These variables exist so you can make quick and simple style changes without much CSS knowledge */
@@ -50,9 +50,7 @@
     --background-image: url('img/original.png');
 }
 
-.header{
-font-family: "Fredoka One", 'MS Gothic';
-}
+
 
 html,
 body {
@@ -63,6 +61,10 @@ body {
     font-size: var(--font-size);
     line-height: var(--line-height);
     color: var(--font-color);
+}
+
+.h1{
+font-family: 'Fredoka One', 'MS Gothic';
 }
 
 body a {
