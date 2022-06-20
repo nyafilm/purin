@@ -16,7 +16,7 @@
 
     /* header */
     --header-height: 150px;
-    --header-color: #fcdde2;
+    --background: linear-gradient(-90deg, white, #FFF6F7);
     --header-margin-bottom: 0px;
 
     /* sidebar */
@@ -37,7 +37,7 @@
 
     /* container */
     --container-width: 800px;
-    --container-bg-color: #FFF7FA;
+    --container-bg-color: #FFF6F7;
 
     /* controls the gap between the content and the footer */
     --row-gap: 5px;
@@ -60,7 +60,7 @@
     text-shadow: -2px 0 #000, 0 2px #000, 2px 0 #000, 0 -2px #000, 0 0;
     position: relative; 
     text-align: center;
-    padding-top: 35px;
+    padding-top: 45px;
     font-size: 35px;
 }
 
@@ -121,15 +121,7 @@ body a {
 #header-contained {
     height: var(--header-height);
     margin-bottom: var(--header-margin-bottom);
-    background: linear-gradient(-80deg, white , white, var(--lightpink));
     background-position: center center;
-    box-shadow:
-   -1px -1px 7px white,  
-    1px -1px 7px white,
-    -1px 1px 7px white,
-     1px 1px 7px white;
-border-radius: 5px;
-border: 1px dotted var(--pink);
 padding: 5px;
 }
 
