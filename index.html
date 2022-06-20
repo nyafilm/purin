@@ -1,77 +1,50 @@
-
-<head>
-<link rel="stylesheet" type="text/css" href="style.css">
-	
-<script type="text/javascript">
-// <![CDATA[
-var speed=290; // speed of wobbling, lower is faster
-var height=1; // height of wobbling in pixels
-var alink="http://www.mf2fm.com/rv"; // page to link text to (set to ="" for no link)
-
-/****************************
-*    Wobbly Text Effect     *
-*(c) 2003-6 mf2fm web-design*
-*  http://www.mf2fm.com/rv  *
-* DON'T EDIT BELOW THIS BOX *
-****************************/
-var wobtxt, wobble, wobcnt=0;
-window.onload=function() { if (document.getElementById) {
-  var i, wobli;
-  wobble=document.getElementById("purin");
-  wobtxt=wobble.firstChild.nodeValue;
-  while (wobble.childNodes.length) wobble.removeChild(wobble.childNodes[0]);
-  for (i=0; i<wobtxt.length; i++) {
-    wobli=document.createElement("span");
-    wobli.setAttribute("id", "wobb"+i);
-    wobli.style.position="relative";
-    wobli.appendChild(document.createTextNode(wobtxt.charAt(i)));
-    if (alink) {
-      wobli.style.cursor="pointer";
-      wobli.onclick=function() { top.location.href=alink; }
-    }
-    wobble.appendChild(wobli);
-  }
-  setInterval("wobbler()", speed);
-}}
-
-function wobbler() {
-  for (var i=0; i<wobtxt.length; i++) document.getElementById("wobb"+i).style.top=Math.round(height*Math.sin(i+wobcnt))+"px"
-  wobcnt++;
-}
-// ]]>
-</script>
-	
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=League+Spartan:wght@400;700&display=swap" rel="stylesheet">
-
- <meta charset="UTF-8"> <title> purin0 (´,,•ω•,,)♡ </title>
-	  <link rel="shortcut icon" type="image/gif" href="img/favicon.gif"/>
-	
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	
-	
-	
+<html>
+ <head>      
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet" type="text/css" media="all">
 </head>
+</div>
+<div id="main-container">
+    <div id="header-contained" style="display: block;"><span style="text-align: center;"> purin0 ❤︎ </span></div>
+    <div id="navbar-contained" style="display: block;">
+        
+    </div>
+    <div class="content-wrap flex alignment">
+          <div id="left-sidebar" style="display: block;">
+            <div class="sidebar-wrapper"> 
+            <ul class="nav">
+            <li><a href="/">home</a></li> <br>
+            <li><a href="#">about me</a></li> <br>
+            <li><a href="#">poems</a></li> <br>
+            <li><a href="#">links</a></li> <br>
+            <li><a href="#">silly stuff</a></li> <br>
+            <li><a href="#">About</a></li> <br>
+            </ul>
 
-<body>
-  <script>NekoType="lucy"</script>
-<h1 id=nl><script src="https://webneko.net/n20171213.js"></script><a 
-href="https://webneko.net">Neko</a></h1>
-<p id="purin"> purin0 :33< </p>
-<img style="text-align=center;display:block;margin-left:auto;margin-right:auto;" src="https://literature.crd.co/assets/images/gallery01/a38a19d3.gif?v=f44f1ca7">
-	<br>
-<p> welcome welcome to my awesome silly webpage for my awesome silly doings!!! this is a revamp of my older site and hopefully this one is more optimized oops </p>
-
-
-<div style="text-align:center;display:block;margin-left:auto;margin-right:auto;" class="bordertext"> i is the hardest word to define, and i find that applicable here. i’m fran, or kai, and this is my blog for all of my shenanigans. i like lots of things and consider myself a sort of jack of all trades. but, i can say for sure that i enjoy the smaller pleasures in life, like smelling expensive perfumes, milkshakes of all flavors, and contemporary poetry. i hope you find something that interests you here. o(*￣▽￣*)o </div>
-	  <br>
-	<div style="text-align:center;display:block;margin-left:auto;margin-right:auto;height:auto;" class="bordertext"> <b> 3/26/22 </b> added updates section, poems page  <br> </div>
-  <br>
-	<br>
-<div style="text-align:center;display:block;margin-left:auto;margin-right:auto;width:25%;height:auto;" class="bordertext"> <a class="link" href="https://purin.my.to/poems.html"> <span data-content="poems"> poems </span> </a> </div> 
-<br>
-	
-
-</body>
-</html>
+        </div>
+        </div>
+        <div id="content-container" style="flex-grow: 1;">
+            <div class="wrapper"><h2> lorem ipsum is such a boring filler text blah blah blah </h2> I've come to make an announcement: Shadow the Hedgehog's a bitch ass motherfucker
+              He pissed on my fucking wife
+              That's right, he took his hedgehog fucking quilly dick out, and he pissed on my fucking Wife
+              And he said his dick was "this big", and I said "that's digusting"
+              So I'm making a callout post on my Twitter.com: Shadow the Hedgehog, you got a small Dick
+              It's the size of this walnut except way smaller
+              And guess what? here's what my dong looks like
+              That's right baby
+              All points, no quills, no pillows
+              Look at that, it looks like two balls and a bong
+              He fucked my wife so guess what, I'm going to fuck the Earth
+              That's right, this is what you get! MY SUPER LASER PISS
+              Except I'm not going to piss on the Earth
+              I'm going to go higher, I'm pissing ON THE MOON
+              How do you like that Obama? I PISSED ON THE MOON YOU IDIOT
+              You have 23 hours before the piss drrrrroplllllllets hit the fucking Earth, now get out of My sight before I piss on you too</div>
+        </div>
+    </div>
+    <div id="footer">
+        <div class="footer-wrapper">footer</div>
+    </div>
+</div>
