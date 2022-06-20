@@ -55,13 +55,14 @@
   }
 
 
-#purin0 {
+.purin0 {
     color: #FFF;
     text-shadow: -2px 0 #000, 0 2px #000, 2px 0 #000, 0 -2px #000, 0 0;
     position: relative; 
     text-align: center;
     padding-top: 45px;
     font-size: 30px;
+    line-height: 150%
 }
 
 
@@ -87,7 +88,7 @@ body a {
     text-decoration: var(--link-text-decoration);
 }
 
-#main-container {
+.main-container {
     max-width: var(--container-width);
     margin: 0 auto;
     background-color: var(--background-image);
@@ -102,13 +103,13 @@ body a {
     margin-top: var(--content-margin-top);
 }
 
-#content-container {
+.content-container {
     width: 60%;
     margin-bottom: var(--row-gap);
     background-color: var(--content-bg-color);
 }
 
-#left-sidebar {
+.left-sidebar {
     width: var(--sidebar-width);
     margin-right: var(--sidebar-margin);
     margin-bottom: var(--row-gap);
@@ -118,7 +119,7 @@ body a {
 }
 
 
-#header-contained {
+.header-contained {
     height: var(--header-height);
     margin-bottom: var(--header-margin-bottom);
     background-position: center center;
