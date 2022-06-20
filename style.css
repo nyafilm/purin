@@ -3,7 +3,7 @@
     /* These variables exist so you can make quick and simple style changes without much CSS knowledge */
 
     /* applies to all areas */
-    --font-family: 'MS Gothic';
+    --font-family: 'MS Gothic', 'Ms PGothic', cursive;
     --font-size: 14px;
     --line-height: 1.3em;
     --font-color: #795751;
@@ -61,7 +61,7 @@
     position: relative; 
     text-align: center;
     padding-top: 45px;
-    font-size: 35px;
+    font-size: 30px;
 }
 
 
