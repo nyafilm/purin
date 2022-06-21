@@ -258,7 +258,7 @@ overflow: auto;
       }
       
     
-      h2{
+  h2{
         text-transform:uppercase;
       background: linear-gradient(90deg, rgba(253,231,234,0) 0%, rgba(253,231,234,1) 5%, rgba(253,231,234,1) 75%, rgba(253,231,234,0) 100%);
         font-size:1em;
