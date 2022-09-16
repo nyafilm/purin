@@ -7,12 +7,12 @@
 
 body {
   background-image:var(--bg-image);
-  margin-left:400px;
-  margin-right:400px;
+  margin-left:25%;
+  margin-right:25%;
   font-size:15px;
   font-family: var(--font-family);
   color:#3F2220;
-  overflow-x: hidden;
+  overflow-x: auto;
 }
 ::-webkit-scrollbar {
     width: 12px;
@@ -60,10 +60,11 @@ header, nav {
   max-width:100%;
 }
 aside {
-  width:200px;
+  max-width:200px;
+  height:600px;
 }
 header {
-  font-size:30px;
+  font-size:25px;
   color:#fff;
   -webkit-text-stroke:0.5px #3F2220;
   text-align:center;
@@ -74,7 +75,8 @@ header {
   font-family:Fredoka One;
 }
 section {
-  max-height:250px;
+  max-height:30%;
+  width:100px;
   border:1px solid black;
   margin-bottom:10px;
   background-color:#fff;
@@ -86,11 +88,12 @@ section {
   overflow-x:hidden;
 }
 article { 
-  max-height:400px;
+  max-height:60%;
+  max-width:100%;
   border:1px solid black;
   margin-bottom:15px;
   background-color:#fff;
-  padding:6px;
+  padding:7px;
   overflow-y: auto;
   overflow-x:hidden;
   
@@ -124,8 +127,8 @@ nav{
   list-style-type:none;
 }
 main {
-  max-height:475px;
-  width:75%;
+  max-height:50%;
+  width:100%;
   margin-left:20px;
   margin-right:20px;
   overflow-x:hidden;
@@ -133,7 +136,6 @@ main {
 }
 #changes{
   overflow: auto;
-  max-height:250px;
   overflow-x:hidden;
 }
 ul{
@@ -146,4 +148,23 @@ footer{
   width: 100%;
   text-align:center;
   margin-top:auto;
+}
+
+
+
+@media only screen and (max-width: 470px) {
+  .right-sidebar, header {
+    display:none;
+  }
+  aside {
+    order:2;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .right-sidebar {
+    display:none;
+  }
+  aside {
+    order:2;
+  }
 }
