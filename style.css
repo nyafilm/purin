@@ -154,7 +154,7 @@ footer{
 
 @media only screen and (max-width: 470px) {
   body {
-    margin:50px;
+    margin:30px;
   }
   main {
     width:100%;
@@ -163,7 +163,7 @@ footer{
     display:none;
   }
   aside {
-    width:80%;
+    width:60%;
     order:2;
   }
   .subtitle, #changes {
@@ -171,6 +171,9 @@ footer{
   }
 }
 @media only screen and (max-width: 850px) {
+   body {
+    margin:30px;
+  }
   .right-sidebar {
     display:none;
   }
