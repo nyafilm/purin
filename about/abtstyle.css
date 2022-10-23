@@ -87,13 +87,13 @@ display:flex;
 
 @media only screen and (max-width: 470px) {
   body {
-    margin:15px;
+    margin:25px;
   }
   img {
     max-width: 100px;
   }
   main {
-    width:90%;
+    width:95%;
   }
   aside {
     width:30%;
