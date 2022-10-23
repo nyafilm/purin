@@ -56,15 +56,15 @@ main, aside {
 aside {
   max-height:135px;
   min-height:115px;
-  max-width:250px;
-  min-width:110px;
+  max-width:40%
+  min-width:35%;
   padding-bottom:5px;
   background-color:#fff;
 }
 main {
   max-height:625px;
-  max-width:450px;
-  min-width:250px;
+  max-width:50%;
+  min-width:25%;
   margin-left:20px;
   margin-right:20px;
   padding:10px;
@@ -87,10 +87,10 @@ display:flex;
 
 @media only screen and (max-width: 470px) {
   body {
-    margin:25px;
+    margin:10x;
   }
   img {
-    max-width: 100px;
+    max-width:45%;
   }
   main {
     width:95%;
