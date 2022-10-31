@@ -1,12 +1,12 @@
 :root {
   --bg-image:url(https://cdn.discordapp.com/attachments/298980640156680194/967524560129892362/ezgif-4-ce6a5d890b.gif);
---heading-bg:#837F9E;
+--heading-bg:#DFB8BB;
  --font-family: 'MS PGothic', 'Ms Gothic', monospace;
 }
 
 body {
-  margin-left:100px;
-  margin-right:100px;
+  margin-left:200px;
+  margin-right:200px;
   background-image:var(--bg-image);
   font-size:15.5px;
   font-family: var(--font-family);
@@ -22,11 +22,11 @@ body {
        background: white;
     border-radius: 1px;
     width: 1px;
-    border: 1px solid #444040;
+    border: 1px solid #442124;
     }
     ::-webkit-scrollbar-thumb {
-    background: #96959C;
-    border: 1px solid #444040;
+    background: #B86970;
+    border: 1px solid #442124;
     border-radius: 0px;
 }
 /* unvisited link */
@@ -65,12 +65,19 @@ a:active {
  font-family: var(--font-family);
 }
 
+.subtitle{
+  border:1px solid black;
+  border-bottom:1px solid black;
+  background-color:var(--heading-bg);
+}
+
+
 aside {
   order:2;
   max-width:250px;
   min-width:135px;
-  max-height:350px;
-  min-height:200px;
+  max-height:150px;
+  min-height:150px;
   border: 1px solid black;
   margin-left:25px;
   background-color:#FCFBFB;
