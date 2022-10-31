@@ -59,7 +59,9 @@ a:active {
 }
 
 #blog{
- border:2px solid #000;
+border-width:7px;
+border-style:solid;
+border-image: url("https://i.imgur.com/8xftJ3v.gif") 7 fill round;
  padding-right:25px;
  background-color:#FCFBFB;
  font-family: var(--font-family);
