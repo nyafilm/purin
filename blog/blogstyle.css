@@ -5,8 +5,8 @@
 }
 
 body {
-  margin-left:250px;
-  margin-right:250px;
+  margin-left:275px;
+  margin-right:275px;
   background-image:var(--bg-image);
   font-size:15.5px;
   font-family: var(--font-family);
@@ -59,6 +59,7 @@ a:active {
 }
 
 #blog{
+width:60%;
 border-width:7px;
 border-style:solid;
 border-image: url("https://i.imgur.com/8xftJ3v.gif") 7 fill round;
