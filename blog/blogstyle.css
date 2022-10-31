@@ -5,8 +5,8 @@
 }
 
 body {
-  margin-left:200px;
-  margin-right:200px;
+  margin-left:250px;
+  margin-right:250px;
   background-image:var(--bg-image);
   font-size:15.5px;
   font-family: var(--font-family);
