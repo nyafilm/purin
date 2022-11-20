@@ -1,0 +1,149 @@
+:root {
+  --bg-image:url(https://64.media.tumblr.com/ea568d43430e0f881680e5cdb622a1b3/tumblr_inline_n258q4r8c01qhwjx8.png);
+--heading-bg:#242328;
+ --font-family: 'MS PGothic', 'Ms Gothic', monospace;
+}
+
+body {
+  margin-left:275px;
+  margin-right:275px;
+  background-image:var(--bg-image);
+  font-size:15.5px;
+  font-family: var(--font-family);
+  color:#352B2B;
+}
+::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+    background: white;
+    overflow-y: scroll;
+    }
+    ::-webkit-scrollbar-track {
+       background: white;
+    border-radius: 1px;
+    width: 1px;
+    border: 1px solid #442124;
+    }
+    ::-webkit-scrollbar-thumb {
+    background: #B86970;
+    border: 1px solid #442124;
+    border-radius: 0px;
+}
+/* unvisited link */
+a:link {
+  color:#373A42;
+}
+
+/* visited link */
+a:visited {
+  color:#373A42;
+}
+
+/* mouse over link */
+a:hover {
+  color:#605E62;
+}
+::selection {
+    background:#B7B7BC;
+  color:#2B2A2A;
+  }
+/* selected link */
+a:active {
+  color:#8A8696;
+}
+
+
+
+.flex{
+ display:flex;
+}
+
+#blog{
+width:60%;
+border-width:7px;
+border-style:solid;
+border-image: url("https://i.imgur.com/8xftJ3v.gif") 7 fill round;
+ padding-right:25px;
+ background-color:#FCFBFB;
+ font-family: var(--font-family);
+}
+
+.subtitle{
+  color:#F7F7F7;
+  border:1px solid black;
+  border-bottom:1px solid black;
+  background-color:var(--heading-bg);
+}
+
+
+aside {
+  order:3;
+  max-width:250px;
+  min-width:135px;
+  max-height:150px;
+  min-height:150px;
+  border: 1px solid black;
+  margin-left:25px;
+  background-color:#FCFBFB;
+}
+
+.links {
+  padding-left:25px;
+}
+
+/* hides the title */
+p.rss-title {
+  display:none;
+}
+
+.rss-item {
+  font-family: var(--font-family);
+  padding-right:20px;
+  
+}
+
+li.rss-item {
+  list-style-type:none;   /* this removes the bullet points */
+  margin-bottom:20px; /* adds spacing under entry content */
+  padding-right:20px;
+}
+
+/* this styles the blog title link */
+li.rss-item a {
+  font-family: var(--font-family);
+  pointer-events:none;
+  font-weight:bold;
+  font-size:20px;
+  text-decoration:none; /* removes underline */
+ 
+}
+/* this styles the date */
+.rss-date {
+  /* need this to add padding */
+  display:inline-block;
+padding-top:10px;
+  padding-bottom:10px;
+   font-style:italic;
+}
+
+a.rss-item:last-child {
+  display:none;
+}
+
+
+@media only screen and (max-width: 470px) {
+  body {
+    margin:15px;
+  }
+  img {
+    max-width: 100px;
+  }
+ #blog {
+    width:100%;
+  }
+  aside {
+    width:20%;
+  }
+  .subtitle {
+    display:none;
+  }
