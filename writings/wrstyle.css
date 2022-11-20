@@ -134,7 +134,7 @@ a.rss-item:last-child {
 @media only screen and (max-width: 470px) {
   body {
     margin:15px;
-     font-family: 'MS PGothic', 'Ms Gothic', 'BIZ UDGothic', monospace; 
+    font-family: 'MS PGothic', 'Ms Gothic', sans serif;
   }
   img {
     max-width: 100px;
