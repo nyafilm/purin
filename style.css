@@ -155,6 +155,7 @@ footer{
 @media only screen and (max-width: 470px) {
   body {
     margin:30px;
+    font-family: 'MS PGothic', 'Ms Gothic', 'BIZ UDGothic', monospace;
   }
   main {
     width:100%;
