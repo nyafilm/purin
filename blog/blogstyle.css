@@ -1,5 +1,5 @@
 :root {
-  --bg-image:url(https://64.media.tumblr.com/61d123a54c0ea6a56f2092bff84badc7/tumblr_inline_ml9cp96ENF1qz4rgp.gif);
+  --bg-image:url(https://i.pinimg.com/originals/06/75/f3/0675f344d13492b7b0a959296596aaba.gif);
 --heading-bg:#DFB8BB;
  --font-family: 'MS PGothic', 'Ms Gothic', monospace;
 }
@@ -8,7 +8,7 @@ body {
   margin-left:275px;
   margin-right:275px;
   background-image:var(--bg-image);
-  background-size:150px;
+  background-size:600px;
   font-size:15.5px;
   font-family: var(--font-family);
   color:#352B2B;
@@ -57,6 +57,11 @@ a:active {
 
 .flex{
  display:flex;
+}
+
+img{
+  height:auto;
+  width:90%;
 }
 
 #blog{
