@@ -141,6 +141,7 @@ main {
 #status{
   overflow-x:hidden;
   overflow-y:auto;
+  height:165px;
 }
 ul{
   padding-left:15px;
