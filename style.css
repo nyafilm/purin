@@ -138,6 +138,10 @@ main {
   overflow: auto;
   overflow-x:hidden;
 }
+#status{
+  overflow-x:hidden;
+  overflow-y:auto;
+}
 ul{
   padding-left:15px;
 }
