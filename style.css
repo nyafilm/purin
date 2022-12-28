@@ -139,9 +139,9 @@ main {
   overflow-x:hidden;
 }
 #status{
+  height:125px;
   overflow-x:hidden;
   overflow-y:auto;
-  height:165px;
 }
 ul{
   padding-left:15px;
