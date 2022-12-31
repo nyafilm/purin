@@ -143,10 +143,20 @@ main {
   overflow-x:hidden;
   overflow-y:auto;
 }
+#main{
+  max-height:350px;
+}
 #webring{
   height:70px;
   overflow-x:hidden;
   overflow-y:auto;
+}
+#buttons{
+  max-height:150px;
+  padding:5px;
+}
+#buttons img{
+  max-width:100%;
 }
 ul{
   padding-left:15px;
