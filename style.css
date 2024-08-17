@@ -136,24 +136,28 @@ main {
 
 .sillies {
     display:flex;
-    
+    max-width:100%;
 }
 
 #status {
     border-right: 1px solid var(--bordercolor);
+    max-width:100%;
     padding:10px;
-    max-width:50%;
+    width: 100%
 }
 
 #buttonsandstuff {
     padding:10px;
+    max-width:100%;
     max-height:20vh;
     min-height:10vh;
     overflow-y:scroll;
+    width: 100%
 }
 
 #buttons{
     max-height:70%;
+    width: fit-content;
 }
 
 /* end main */
