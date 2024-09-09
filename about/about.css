@@ -19,6 +19,24 @@ a:hover {
     color:#8B6121
 }
 
+.quizzes {
+    margin-left: 10%;
+    margin-right: 2%;
+    margin-top:2%;
+    background-color: #EEEAE7;
+    padding: 15px;
+    border: solid 3px #1f1b19;
+    max-width: 35%;
+    max-height:20%
+    text-align: center;
+    overflow-y:scroll;
+}
+
+#more {
+    display:none;
+    font-size:small;
+}
+
 .nav {
     background-color: #EEEAE7;
     padding: 5px;
@@ -28,6 +46,11 @@ a:hover {
     margin-right: 10%;
 }
 
+button {
+
+    font-family: 'MS PGothic', 'Ms Gothic', monospace;;
+}
+
 .abt {
 
     margin-left: 15%;
@@ -35,14 +58,25 @@ a:hover {
     max-height: 40%;
     overflow: auto;
   overflow-x:hidden;
+  background-color: #EEEAE7;
+  padding: 15px;
+  border: solid 3px #1f1b19;
+  max-width: 100%;
+  
 }
 
-div  {
+.flex {
+    display:flex;
+}
 
+.idk {
+    margin-right: 10%;
+    margin-top:2%;
     background-color: #EEEAE7;
     padding: 15px;
     border: solid 3px #1f1b19;
-    max-width: 100%;
+    max-width: 50%;
+    text-align: center;
 }
 
 ::-webkit-scrollbar {
