@@ -20,21 +20,36 @@ a:hover {
 }
 
 .quizzes {
-    margin-left: 10%;
+    margin-left: 15%;
     margin-right: 2%;
     margin-top:2%;
     background-color: #EEEAE7;
     padding: 15px;
     border: solid 3px #1f1b19;
-    max-width: 35%;
-    max-height:20%
+    max-height:20em;
     text-align: center;
-    overflow-y:scroll;
+    overflow-y:auto;
+    flex: 1;
+}
+
+.idk {
+    margin-right: 15%;
+    margin-top:2%;
+    background-color: #EEEAE7;
+    padding: 15px;
+    border: solid 3px #1f1b19;
+    text-align: center;
+    max-width: 100%;
+    flex: 1;
 }
 
 #more {
     display:none;
     font-size:small;
+}
+
+#dnd {
+    max-width: 90%;
 }
 
 .nav {
@@ -61,7 +76,7 @@ button {
   background-color: #EEEAE7;
   padding: 15px;
   border: solid 3px #1f1b19;
-  max-width: 100%;
+
   
 }
 
@@ -69,15 +84,7 @@ button {
     display:flex;
 }
 
-.idk {
-    margin-right: 10%;
-    margin-top:2%;
-    background-color: #EEEAE7;
-    padding: 15px;
-    border: solid 3px #1f1b19;
-    max-width: 50%;
-    text-align: center;
-}
+
 
 ::-webkit-scrollbar {
     width: 12px;
