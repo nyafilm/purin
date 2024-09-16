@@ -1,0 +1,80 @@
+.flex {
+display: flex;
+margin: 10px;;
+
+}
+
+aside {
+    width: 30%;
+    background-color: #adcfcb;
+    padding: 1%;
+    margin-left: 5%;
+    border: #38042b groove 2px;
+}
+
+.main {
+    width:100%;
+    max-height: 100%;
+min-height: 100%;
+border: 0;
+}
+
+a:link {
+    color: #640a42;
+  }
+    
+  a:visited {
+    color: #38042b;
+  }
+
+  /* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+
+main {
+width: 100%;
+max-width: 200%;
+max-height: 70%;
+}
+
+@font-face {
+    font-family:'yipes';
+    src: url(https://dl.dropbox.com/s/qrdm3wived8sm66/Yipes.ttf);
+     
+    }
+
+    h1 {
+        font-family: "yipes", 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: aliceblue;
+        font-style: oblique;
+        font-size: 350%;
+        line-height: 0%;
+    }
+h2 {
+    color: aliceblue;
+    line-height: 0%;
+    margin: 5%;
+}
+
+body {
+    background-image:url(/graphics/tumblr_inline_mncj2c7Gz91qz4rgp.png);
+    background-size:40%;
+    font-family: "Palatino Linotype", Palatino, Baskerville, "Baskerville Old Face", Garamond, serif;
+    margin: 10%;
+}
