@@ -9,7 +9,7 @@ aside {
     background-color: #adcfcb;
     padding: 1%;
     margin-left: 5%;
-    border: #38042b groove 2px;
+    border: #1b020a groove 2px;
 }
 
 .main {
@@ -77,4 +77,8 @@ body {
     background-size:40%;
     font-family: "Palatino Linotype", Palatino, Baskerville, "Baskerville Old Face", Garamond, serif;
     margin: 10%;
+}
+
+iframe {
+  border: 3px solid #38042b;
 }
